@@ -1,7 +1,11 @@
-# This def function is used to create a reusable block of code that performs a specific task.
+# This def function is used to perform a specific task and make the code reusable.
 
-def greet_user(name):
-    print("Hello, " + name + "! Welcome to Python.")
+def calculate_total(price, quantity):
+    return price * quantity
 
-# Calling/invoking the function
-greet_user("Student")
+# Calling the function
+total = calculate_total(50, 3)
+
+print("Food price: 50 pesos")
+print("Quantity: 3")
+print("Total: ", total, "pesos")
